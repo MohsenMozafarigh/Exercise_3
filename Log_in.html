@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      img {
+        width: 300px;
+        border-radius: 200px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+      }
+      .Container {
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+      .email {
+        position: absolute;
+        top: 50%;
+        left: 45%;
+      }
+      .My_github {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+      body {
+        background-image: url("Images/background1.jpg");
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+  </head>
+  <body>
+    <img src="Images/cloud_dev.jpg" alt="An image of full stack developer" />
+    <form class="Container">
+      <label for="user">Username:</label><br />
+      <input type="text" id="user" name="user" /><br />
+      <label for="pass">Password:</label><br />
+      <input type="text" id="pass" name="pass" /><br /><br />
+      <input type="submit" value="Log in" />
+      <input type="submit" value="Sign up" />
+    </form>
+    <a class="email" href="mailto:mohsenmozafari@cmail.carleton.ca"
+      >Contact us</a
+    >
+    <a
+      class="My_github"
+      href="https://github.com/MohsenMozaffary"
+      target="_blank"
+      >My github</a
+    >
+  </body>
+</html>

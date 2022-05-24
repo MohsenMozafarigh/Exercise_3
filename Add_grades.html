@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grades' utility</title>
+    <style>
+      h1 {
+        margin: 0;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+      }
+      .Containers {
+        margin: 0;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+      }
+      body {
+        background-image: url("Images/Background.jpg");
+        font-family: "Times New Roman", Times, serif;
+      }
+      input {
+        font-family: "Times New Roman", Times, serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Here, you can add, or remove any grades. You can also search for a
+      person's grade.
+    </h1>
+    <form class="Containers">
+      <input
+        type="text"
+        id="name"
+        name="name"
+        value="Import student's name"
+      /><br />
+      <input
+        type="text"
+        id="grade"
+        name="grade"
+        value="Import student's grade"
+      /><br />
+      <input class="add" type="submit" value="Add" />
+      <input class="search" type="submit" value="Search" />
+      <input class="remove" type="submit" value="Remove" />
+    </form>
+  </body>
+</html>
